@@ -12,7 +12,7 @@ public class Selectsort{
                for(int j= i+1;j<(arr.length);j++){
                      if(arr[j]<arr[min]){
 
-                    swap(arr,j,min);
+                    min=j;
 
                       }
                   
@@ -26,7 +26,7 @@ public class Selectsort{
 
 
      public static void main(String[] args){
-           int arr[]={1,5,8,6,9};
+           int arr[]={1,5,8,6,10,43,55,233,54};
            Selectsort(arr);
          
             for(int i = 0;i<arr.length;i++){
